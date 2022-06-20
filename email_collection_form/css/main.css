@@ -1,0 +1,89 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #f8f2f6;
+}
+
+.form-container {
+  max-width: 400px;
+  background: white;
+  -webkit-box-shadow: 20px 20px 40px #ffd3f0;
+          box-shadow: 20px 20px 40px #ffd3f0;
+  border-radius: 1em;
+  padding: 2em;
+  position: relative;
+}
+
+.form-container label {
+  font-size: 1.125rem;
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 0.8em;
+  border: 1px solid gray;
+  margin-bottom: 1em;
+}
+
+.form-container p {
+  font-size: 0.9em;
+  margin: 1em 0 2em;
+  padding: 1em;
+  background: #f5f3eb;
+}
+
+.form-container a {
+  display: block;
+  text-decoration: none;
+  background: #b61580;
+  color: white;
+  padding: 0.8em;
+  text-align: center;
+}
+
+.form-container input,
+.form-container a {
+  border-radius: 0.3em;
+}
+
+.form-container .onstart {
+  position: absolute;
+  top: -200px;
+}
+
+h1 {
+  margin: 3em 0 0.5em;
+}
+
+h2 {
+  font-size: 3em;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 6em;
+}
+
+.success {
+  position: absolute;
+  z-index: -1;
+}
+
+.success .lottie {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  pointer-events: none;
+}
+/*# sourceMappingURL=main.css.map */
